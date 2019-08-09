@@ -12,7 +12,7 @@
 // document.getElementById("demo").innerHTML =
 // Math.floor(Math.random() * 101);
 //-----------------------------Bai 3--------------------------------
-// var a = document.getElementById("demo").innerHTML =Math.random() * 100;
+// var a = document.getElementById("demo").innerHTML =Math.random() * 101;
 // if ( a<60) {
 //     console.log("Coudy");
     
