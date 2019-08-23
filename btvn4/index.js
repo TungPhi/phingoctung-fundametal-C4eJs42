@@ -140,23 +140,22 @@ for (let i = 0; i < info.length; i++) {
 console.log("----------------------------------------------------")
 let chonLevel = prompt("Nhập level của bạn");
 let chonSkill = prompt("Bạn muốn dùng skill nào?")-1;
-xacXuat =Math.random();
-for (let i = 0; i < info.length; i++) {
-    
-        if (chonLevel<4 && chonSkill<2) {
+if (chonLevel<4 && chonSkill<2) {
             console.log("Damage của bạn là :"+ info[chonSkill].Damage);  
-            
+            let xacXuat =Math.random();
+            if (xacXuat>info[chonSkill].HitRate) {
+                console.log("Skill đã không trúng mục tiêu");
+            }
         }else if (chonLevel<4 && 1<chonSkill) {
             console.log("Bạn không đủ level để sử dụng skill");
             
         }else{
-            console.log("Damage của bạn là :"+ info[chonSkill].Damage);                
+            console.log("Damage của bạn là :"+ info[chonSkill].Damage);
+            let xacXuat =Math.random();
+            if (xacXuat>info[chonSkill].HitRate) {
+                console.log("Skill đã không trúng mục tiêu");
+            }            
         }
-
-}
-if (xacXuat>info[chonSkill].HitRate) {
-        console.log("Skill đã không trúng mục tiêu");
-    }
     
 
 
