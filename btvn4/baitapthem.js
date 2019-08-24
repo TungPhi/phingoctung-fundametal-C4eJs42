@@ -5,7 +5,7 @@ for (let i = 0; flag; i++) {
     let b = Math.floor(Math.random() * 10);
     let c = Math.floor(Math.random() * 20);
     let tong = a+b;
-    let quiz = prompt(`${a} + ${b} = ${c}  y or n ?  Kết quả ${tong}`);
+    let quiz = prompt(`${a} + ${b} = ${c}  y or n ?`);
 
     if (quiz === "y") {
             if ((tong===c)) {
