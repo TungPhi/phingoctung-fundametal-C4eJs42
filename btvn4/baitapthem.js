@@ -15,7 +15,6 @@ for (let i = 0; flag; i++) {
             flag = false;
             console.log(`OVER GAME`);
             console.log(`You had corectly ${count}.`);
-        
             }
     }
     if (quiz === "n") {
@@ -28,10 +27,6 @@ for (let i = 0; flag; i++) {
             console.log(`You had corectly ${count}.`);
         }
     }
-
-
-    
-    
 }
 
     
