@@ -13,8 +13,8 @@ for (let i = 0; flag; i++) {
             }   
             else{
             flag = false;
-            console.log(`OVER GAME`);
-            console.log(`You had corectly ${count}.`);
+            console.log(`Kết thúc`);
+            console.log(`Bạn đã trả lời đúng ${count} câu.`);
             }
     }
     if (quiz === "n") {
@@ -23,8 +23,8 @@ for (let i = 0; flag; i++) {
         }
         else{
             flag = false;
-            console.log(`OVER GAME`);
-            console.log(`You had corectly ${count}.`);
+            console.log(`Kết thúc`);
+            console.log(`Bạn đã trả lời đúng ${count} câu.`);
         }
     }
 }
